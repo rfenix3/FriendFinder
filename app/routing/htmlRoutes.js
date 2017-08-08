@@ -27,22 +27,23 @@ router.get('/', function(req, res) {
 });
 
 router.get('/survey', function(req, res) {
-  var info = '';
-  var dataFile = req.app.get('appData');
-  dataFile.friends.forEach(function(item) {
-    info += `
-    <li>
-      <h2>${item.name}</h2>
-      <img src="/images/${item.photo}" alt="friend">
-    </li>
-    `;
-  });
-  res.send(`
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-      <h1>Roux Academy Meetups</h1>
-      ${info}
-      <script src="/reload/reload.js"></script>
-  `);
+	var info = '';
+  	var dataFile = req.app.get('appData');
+  	dataFile.friends.forEach(function(item) {
+    // info += `
+    // <li>
+    //   <h2>${item.name}</h2>
+    //   <img src="/images/${item.photo}" alt="friend">
+    // </li>
+    // `;
+  	});
+	res.render('survey');
+  //  res.send(`
+  //   <link rel="stylesheet" type="text/css" href="/css/style.css">
+  //     <h1>Roux Academy Meetups</h1>
+  //     ${info}
+  //     <script src="/reload/reload.js"></script>
+  // `);
 });
 
 module.exports = router;
