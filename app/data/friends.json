@@ -1,0 +1,16 @@
+{
+  "friends": [{
+    "name": "Lorenzo Garcia",
+    "photo" : "Lorenzo_Garcia_tn.jpg",
+    "scores": [3, 4, 1, 4, 5, 5, 2, 5, 4, 1]
+  },{
+    "name": "Hilary Goldywynn Post",
+    "photo" : "Hillary_Goldwynn_tn.jpg",
+    "scores" : [2, 1, 4, 4, 3, 1, 5, 5, 5, 5]
+  },{
+    "name": "Riley Rudolph Rewington",
+    "photo" : "Riley_Rewington_tn.jpg",
+    "scores" : [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+  }]
+}
+

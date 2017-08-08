@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Dating app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e css,ejs,js,json --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfenix3/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder"
+  ],
+  "author": "Richard Fenix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfenix3/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/rfenix3/FriendFinder#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "reload": "^2.2.1"
+  }
+}
